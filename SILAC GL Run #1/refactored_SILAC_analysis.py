@@ -92,18 +92,18 @@ def run_labeling_analysis(filename: str, labeled_aa_list, separate = False):
         outputs = []
         for aa in labeled_aa_list:
             outputs.append((aa, peptide_label_helper(peptide_data, [aa])))
-        for residue, (total_peptide_count, output) in outputs:
-            print(f"There are total of {total_peptide_count} peptides with at least 1 labeled {residue}, and the result is \n {output}")
+        # for residue, (total_peptide_count, output) in outputs:
+            # print(f"There are total of {total_peptide_count} peptides with at least 1 labeled {residue}, and the result is \n {output}")
         return outputs
 
     else:
         total_count, output= peptide_label_helper(peptide_data, labeled_aa_list)
-        print(f"If we consider all residues in {labeled_aa_list}, there are {total_count} peptides having at least 1 residue, and aggregate output is \n {output}")
+        # print(f"If we consider all residues in {labeled_aa_list}, there are {total_count} peptides having at least 1 residue, and aggregate output is \n {output}")
         return [(total_count, output)]
     
-print("For CT2A we have:")
-run_labeling_analysis("SILAC_MHC_CT2A_filtered_corrected.csv", ["Y", "F", "N"], separate = True)
-print("______")
-print("For GL261, we have:")
-run_labeling_analysis("SILAC_MHC_GL261_filtered_corrected.csv", ["Y", "F","N"], separate = True)
+# print("For CT2A we have:")
+print(run_labeling_analysis("SILAC_MHC_CT2A_filtered_corrected.csv", ["Y", "F", "N"], separate = True))
+# print("______")
+# print("For GL261, we have:")
+# run_labeling_analysis("SILAC_MHC_GL261_filtered_corrected.csv", ["Y", "F","N"], separate = True)
 
