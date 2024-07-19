@@ -102,8 +102,8 @@ def run_labeling_analysis(filename: str, labeled_aa_list, separate = False):
         return [(total_count, output)]
     
 print("For CT2A we have:")
-run_labeling_analysis("SILAC_MHC_CT2A_filtered.csv", ["Y", "F", "N"], separate = True)
+run_labeling_analysis("SILAC_MHC_CT2A_filtered_corrected.csv", ["Y", "F", "N"], separate = True)
 print("______")
 print("For GL261, we have:")
-run_labeling_analysis("SILAC_MHC_GL261_filtered.csv", ["Y", "F","N"], separate = True)
+run_labeling_analysis("SILAC_MHC_GL261_filtered_corrected.csv", ["Y", "F","N"], separate = True)
 
