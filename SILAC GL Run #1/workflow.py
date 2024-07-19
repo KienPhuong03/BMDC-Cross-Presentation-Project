@@ -29,7 +29,7 @@ def main():
     parser.add_argument('--data', type=list, required=True)
     parser.add_argument("--sample_names", type = list, required = True)
     parser.add_argument("--label", type = list, required = True)
-    parser.add_argument("--sep", type = bool, require = True)
+    parser.add_argument("--sep", type = bool, required = True)
     parser.add_argument('--o', type=str,required=True)
     
     args = parser.parse_args()
