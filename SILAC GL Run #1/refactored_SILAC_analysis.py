@@ -107,18 +107,3 @@ print("______")
 print("For GL261, we have:")
 run_labeling_analysis("SILAC_MHC_GL261_filtered.csv", ["Y", "F","N"], separate = True)
 
-# labeled_residues = ["Y", "F", "N"]
-# pattern = rf'[{"".join(labeled_residues)}]\d{{1,2}}\(Label:.*\)$'
-# regex = re.compile(pattern)
-# mod = "F6(Label:13C(9)15N(1)); N8(Label)"
-# tokens = [token.strip() for token in mod.split(";")]
-# # print(tokens)
-# # print(regex.match("F6(Label:13C(9)15N(1))"))
-# # print([bool(regex.match(token)) for token in mod.split(sep = ";")])
-# print(regex.match("N7(Label:18O(2)13C(1))"))
-
-# peptide_data = pd.read_csv("SILAC_MHC_CT2A_filtered.csv")
-# peptide_data = peptide_data.groupby("Sequence")["Modifications"].apply(tuple).reset_index()
-# pattern = r'^[YFN]'
-# all_sequences = peptide_data["Sequence"].tolist()
-# print(sum([("Y" in seq or "F" in seq or "N" in seq) for seq in all_sequences]))
