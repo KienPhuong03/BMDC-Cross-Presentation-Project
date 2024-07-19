@@ -35,7 +35,7 @@ def main():
     args = parser.parse_args()
     #set working directory to file path provided
     os.chdir = args.path
-    for filename in args.i:
+    for filename in args.data:
         output = run_labeling_analysis(filename, args.label, args.sep)
         write_data_to_file(output, args.sample_names, args.o)
 
