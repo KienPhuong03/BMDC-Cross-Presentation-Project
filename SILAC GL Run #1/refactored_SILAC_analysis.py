@@ -88,22 +88,13 @@ def run_labeling_analysis(filename: str, labeled_aa_list, separate = False):
     peptide_data = peptide_data.groupby("Sequence")["Modifications"].apply(tuple).reset_index()
     num_peptides = peptide_data.shape[0]
     
-    if separate:
+    if separate: # Analyze each labeled amino acid separately
         outputs = []
         for aa in labeled_aa_list:
             outputs.append((aa, peptide_label_helper(peptide_data, [aa])))
-        # for residue, (total_peptide_count, output) in outputs:
-            # print(f"There are total of {total_peptide_count} peptides with at least 1 labeled {residue}, and the result is \n {output}")
         return outputs
 
-    else:
+    else: # Process all residues in aggregate (total peptides = peptides with at least one of the labeled residues)
         total_count, output= peptide_label_helper(peptide_data, labeled_aa_list)
-        # print(f"If we consider all residues in {labeled_aa_list}, there are {total_count} peptides having at least 1 residue, and aggregate output is \n {output}")
         return [(total_count, output)]
-    
-# print("For CT2A we have:")
-print(run_labeling_analysis("SILAC_MHC_CT2A_filtered_corrected.csv", ["Y", "F", "N"], separate = True))
-# print("______")
-# print("For GL261, we have:")
-# run_labeling_analysis("SILAC_MHC_GL261_filtered_corrected.csv", ["Y", "F","N"], separate = True)
 

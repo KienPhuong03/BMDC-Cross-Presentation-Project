@@ -1,0 +1,16 @@
+For CT2A, we have:
+There are total of 1164 peptides with at least 1 labeled Y, and the result is 
+ {'Fully labeled': 157, 'Partially labeled': 438, 'Not labeled': 569}
+There are total of 1444 peptides with at least 1 labeled F, and the result is 
+ {'Fully labeled': 208, 'Partially labeled': 546, 'Not labeled': 690}
+There are total of 1729 peptides with at least 1 labeled N, and the result is 
+ {'Fully labeled': 252, 'Partially labeled': 686, 'Not labeled': 791}
+______
+For GL261, we have:
+There are total of 1177 peptides with at least 1 labeled Y, and the result is 
+ {'Fully labeled': 307, 'Partially labeled': 486, 'Not labeled': 384}
+There are total of 1497 peptides with at least 1 labeled F, and the result is 
+ {'Fully labeled': 394, 'Partially labeled': 630, 'Not labeled': 473}
+There are total of 1767 peptides with at least 1 labeled N, and the result is 
+ {'Fully labeled': 464, 'Partially labeled': 749, 'Not labeled': 554}
+______
