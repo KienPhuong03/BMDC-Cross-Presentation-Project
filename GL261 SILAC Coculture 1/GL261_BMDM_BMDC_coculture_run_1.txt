@@ -1,0 +1,32 @@
+For BMDC-MHCI, we have:
+There are total of 265 peptides with at least 1 labeled Y, and the result is 
+ {'Fully labeled': 7, 'Partially labeled': 4, 'Not labeled': 254}
+There are total of 275 peptides with at least 1 labeled F, and the result is 
+ {'Fully labeled': 5, 'Partially labeled': 4, 'Not labeled': 266}
+There are total of 432 peptides with at least 1 labeled N, and the result is 
+ {'Fully labeled': 6, 'Partially labeled': 4, 'Not labeled': 422}
+______
+For BMDC-MHCII, we have:
+There are total of 38 peptides with at least 1 labeled Y, and the result is 
+ {'Fully labeled': 1, 'Partially labeled': 1, 'Not labeled': 36}
+There are total of 24 peptides with at least 1 labeled F, and the result is 
+ {'Fully labeled': 1, 'Partially labeled': 1, 'Not labeled': 22}
+There are total of 26 peptides with at least 1 labeled N, and the result is 
+ {'Fully labeled': 1, 'Partially labeled': 0, 'Not labeled': 25}
+______
+For BMDM-MHCI, we have:
+There are total of 186 peptides with at least 1 labeled Y, and the result is 
+ {'Fully labeled': 3, 'Partially labeled': 3, 'Not labeled': 180}
+There are total of 174 peptides with at least 1 labeled F, and the result is 
+ {'Fully labeled': 1, 'Partially labeled': 7, 'Not labeled': 166}
+There are total of 308 peptides with at least 1 labeled N, and the result is 
+ {'Fully labeled': 5, 'Partially labeled': 10, 'Not labeled': 293}
+______
+For BMDM-MHCII, we have:
+There are total of 10 peptides with at least 1 labeled Y, and the result is 
+ {'Fully labeled': 0, 'Partially labeled': 1, 'Not labeled': 9}
+There are total of 11 peptides with at least 1 labeled F, and the result is 
+ {'Fully labeled': 0, 'Partially labeled': 1, 'Not labeled': 10}
+There are total of 7 peptides with at least 1 labeled N, and the result is 
+ {'Fully labeled': 0, 'Partially labeled': 0, 'Not labeled': 7}
+______
