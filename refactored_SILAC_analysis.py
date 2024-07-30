@@ -95,6 +95,6 @@ def run_labeling_analysis(filename: str, labeled_aa_list, separate = False):
         return outputs
 
     else: # Process all residues in aggregate (total peptides = peptides with at least one of the labeled residues)
-        total_count, output= peptide_label_helper(peptide_data, labeled_aa_list)
+        total_count, output = peptide_label_helper(peptide_data, labeled_aa_list)
         return [(total_count, output)]
 
