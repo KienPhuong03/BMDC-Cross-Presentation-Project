@@ -30,8 +30,6 @@ def peptide_label_helper(peptides_df : pd.DataFrame, labeled_residues : list):
     partially_labeled = 0
     not_labeled = 0
     total_count_peptides = 0
-    verifier = []
-
 
     for index, row in peptides_df.iterrows():
         
@@ -50,9 +48,6 @@ def peptide_label_helper(peptides_df : pd.DataFrame, labeled_residues : list):
                 continue
             # if the number of labeled residue in a spectra = number of Y,F,N residues in that peptide then such spectra is "fully labeled"
             num_labeled_residue = sum([bool(regex.match(token.strip())) for token in mod.split(sep = ";")])
-
-            verifier.append((num_residues_in_question, num_labeled_residue))
-
             if num_labeled_residue == num_residues_in_question:
                 count += 1
         # A peptide is fully labeled if all spectras are fully labeled. If none are labeled, then it's not labeled.
@@ -72,7 +67,7 @@ def peptide_label_helper(peptides_df : pd.DataFrame, labeled_residues : list):
         },
     )
 
-def run_labeling_analysis(filename: str, labeled_aa_list, separate = False):
+def run_labeling_analysis(filename: str, labeled_aa_list, separate):
     """
     Notation: 
     1. fully labeled means that all Y, F, N residues in a peptide is labeled in all spectra measurements.
@@ -96,5 +91,5 @@ def run_labeling_analysis(filename: str, labeled_aa_list, separate = False):
 
     else: # Process all residues in aggregate (total peptides = peptides with at least one of the labeled residues)
         total_count, output = peptide_label_helper(peptide_data, labeled_aa_list)
-        return [(total_count, output)]
+        return [(labeled_aa_list, (total_count, output))]
 

@@ -24,13 +24,15 @@ def write_data_to_file(output_data, sample_names, file_path):
             file.write("______\n")
 
 def main():
-    parser = argparse.ArgumentParser(description="Write peptide labeling data to a specified output file.")
-    parser.add_argument('--path', type=str, required=True, help='The path to the data files')
-    parser.add_argument('--data', nargs='+', required=True, help='List of data file names')
-    parser.add_argument('--sample_names', nargs='+', required=True, help='List of sample names')
-    parser.add_argument('--label', nargs='+', required=True, help='List of labels')
-    parser.add_argument('--sep', type=bool, required=True, help='Separator flag')
-    parser.add_argument('--o', type=str, required=True, help='The output file path where data will be written')
+    parser = argparse.ArgumentParser(description = "Write peptide labeling data to a specified output file.")
+    parser.add_argument('--path', type = str, required = True, help = 'The path to the data files')
+    parser.add_argument('--data', nargs = '+', required = True, help = 'List of data file names')
+    parser.add_argument('--sample_names', nargs='+', required=True, help = 'List of sample names')
+    parser.add_argument('--label', nargs = '+', required = True, help = 'List of labels')
+    parser.add_argument('--sep', action ='store_true', help = 'Separator flag')
+    parser.add_argument('--no-sep', dest = 'sep', action = 'store_false', help = 'Separator flag')
+    parser.set_defaults(sep = True)
+    parser.add_argument('--o', type=str, required = True, help = 'The output file path where data will be written')
     
     args = parser.parse_args()
     #set working directory to file path provided
