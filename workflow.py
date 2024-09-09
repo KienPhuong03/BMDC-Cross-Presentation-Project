@@ -21,7 +21,7 @@ def write_data_to_file(output_data, sample_names, file_path):
         for idx, sample in enumerate(sample_names):
             file.write(f"For {sample}, we have:\n")
             for label, (total, details) in output_data[idx]:
-                file.write(f"There are total of {total} peptides with at least 1 labeled {label}, and the result is \n")
+                file.write(f"There are total of {total} peptides with at least 1 {label}, and the result is \n")
                 file.write(f" {details}\n")
             file.write("______\n")
 
