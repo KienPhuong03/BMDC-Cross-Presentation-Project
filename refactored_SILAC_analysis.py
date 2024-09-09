@@ -44,7 +44,7 @@ def peptide_label_helper(peptides_df : pd.DataFrame, labeled_residues : list):
         count = 0
         
         for mod in modifications:
-            if mod is np.nan:
+            if pd.isna(mod):
                 continue
             # if the number of labeled residue in a spectra = number of Y,F,N residues in that peptide then such spectra is "fully labeled"
             num_labeled_residue = sum([bool(regex.match(token.strip())) for token in mod.split(sep = ";")])
