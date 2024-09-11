@@ -42,7 +42,7 @@ max_length2=30
 qvalue=args.q
 search_rank=1
 if (args.type=="Mascot"):
-    good_length=PSM_processing_Mascot(psm_table,20, 1)
+    good_length=PSM_processing_Mascot(psm_table, 15,1)
 else:
     good_length=PSM_processing(psm_table,min_length, max_length, qvalue)
 good_length.to_csv(args.o)
