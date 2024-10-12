@@ -1,0 +1,96 @@
+For DC-CT2A MHC-I Data, we have:
+There are total of 224 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 14, 'Partially labeled': 6, 'Not labeled': 204}
+There are total of 213 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 11, 'Partially labeled': 3, 'Not labeled': 199}
+There are total of 334 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 13, 'Partially labeled': 5, 'Not labeled': 316}
+______
+For DC-CT2A MHC-II Data, we have:
+There are total of 136 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 2, 'Partially labeled': 1, 'Not labeled': 133}
+There are total of 69 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 4, 'Partially labeled': 2, 'Not labeled': 63}
+There are total of 127 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 5, 'Partially labeled': 1, 'Not labeled': 121}
+______
+For DC-GL261+FasL MHC-I Data, we have:
+There are total of 88 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 1, 'Partially labeled': 0, 'Not labeled': 87}
+There are total of 93 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 7, 'Partially labeled': 0, 'Not labeled': 86}
+There are total of 176 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 4, 'Partially labeled': 1, 'Not labeled': 171}
+______
+For DC-GL261+FasL MHC-II Data, we have:
+There are total of 85 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 5, 'Partially labeled': 0, 'Not labeled': 80}
+There are total of 48 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 7, 'Partially labeled': 0, 'Not labeled': 41}
+There are total of 70 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 2, 'Partially labeled': 0, 'Not labeled': 68}
+______
+For DC-GL261 MHC-I Data, we have:
+There are total of 145 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 6, 'Partially labeled': 1, 'Not labeled': 138}
+There are total of 149 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 8, 'Partially labeled': 5, 'Not labeled': 136}
+There are total of 263 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 6, 'Partially labeled': 6, 'Not labeled': 251}
+______
+For DC-GL261 MHC-II Data, we have:
+There are total of 128 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 2, 'Partially labeled': 1, 'Not labeled': 125}
+There are total of 60 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 2, 'Partially labeled': 1, 'Not labeled': 57}
+There are total of 116 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 5, 'Partially labeled': 1, 'Not labeled': 110}
+______
+For DC-UT MHC-I Data, we have:
+There are total of 118 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 4, 'Partially labeled': 0, 'Not labeled': 114}
+There are total of 113 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 3, 'Partially labeled': 0, 'Not labeled': 110}
+There are total of 211 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 5, 'Partially labeled': 0, 'Not labeled': 206}
+______
+For DC-UT MHC-II Data, we have:
+There are total of 82 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 3, 'Partially labeled': 0, 'Not labeled': 79}
+There are total of 35 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 1, 'Partially labeled': 0, 'Not labeled': 34}
+There are total of 55 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 2, 'Partially labeled': 0, 'Not labeled': 53}
+______
+For BMDM-CT2A MHC-I Data, we have:
+There are total of 165 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 3, 'Partially labeled': 4, 'Not labeled': 158}
+There are total of 144 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 13, 'Partially labeled': 1, 'Not labeled': 130}
+There are total of 275 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 7, 'Partially labeled': 2, 'Not labeled': 266}
+______
+For BMDM-GL261+FasL MHC-I Data, we have:
+There are total of 224 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 7, 'Partially labeled': 12, 'Not labeled': 205}
+There are total of 215 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 9, 'Partially labeled': 14, 'Not labeled': 192}
+There are total of 372 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 13, 'Partially labeled': 4, 'Not labeled': 355}
+______
+For BMDM-GL261 MHC-I Data, we have:
+There are total of 284 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 6, 'Partially labeled': 3, 'Not labeled': 275}
+There are total of 259 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 13, 'Partially labeled': 4, 'Not labeled': 242}
+There are total of 482 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 16, 'Partially labeled': 6, 'Not labeled': 460}
+______
+For BMDM-UT MHC-I Data, we have:
+There are total of 258 peptides with at least 1 Y, and the result is 
+ {'Fully labeled': 6, 'Partially labeled': 0, 'Not labeled': 252}
+There are total of 242 peptides with at least 1 F, and the result is 
+ {'Fully labeled': 18, 'Partially labeled': 0, 'Not labeled': 224}
+There are total of 416 peptides with at least 1 N, and the result is 
+ {'Fully labeled': 11, 'Partially labeled': 0, 'Not labeled': 405}
+______
